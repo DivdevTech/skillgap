@@ -4,7 +4,7 @@
 body {
   color: #797979;
   background: #ffffff;
-  font-family: "Lato", sans-serif;
+  font-family: "Optima", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
 }
 
 h1,
@@ -14,7 +14,7 @@ h4,
 h5,
 h6 {
   color: #092a49;
-  font-family: "Oswald", sans-serif;
+  font-family: "Optima", sans-serif;
 }
 
 a {
@@ -1385,7 +1385,7 @@ a:focus {
 .single .ul-group li::before {
   position: relative;
   content: "\f0da";
-  font-family: "Font Awesome 5 Free";
+  font-family:  "Optima", "Font Awesome 5 Free";
   font-weight: 900;
   margin-right: 10px;
 }
@@ -1446,7 +1446,7 @@ a:focus {
 .footer .footer-link a::before {
   position: relative;
   content: "\f105";
-  font-family: "Font Awesome 5 Free";
+  font-family:  "Optima", "Font Awesome 5 Free";
   font-weight: 900;
   margin-right: 10px;
 }
