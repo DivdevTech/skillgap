@@ -28,8 +28,38 @@
     <link href="lib/animate/animate.min.css" rel="stylesheet" />
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
 
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap"
+      rel="stylesheet"
+    />
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet" />
+
+    <style>
+      .get-things-done {
+        font-family: "Mistral", "Dancing Script", cursive;
+        color: #00ff00;
+        font-size: 5rem;
+        font-weight: normal;
+        display: inline-block;
+        position: relative;
+      }
+
+      .get-things-done::before,
+      .get-things-done::after {
+        content: "";
+        display: inline-block;
+        width: 80px;
+        height: 2px;
+        background-color: #00ff00;
+        vertical-align: middle;
+        margin: 0 10px;
+      }
+
+      .carousel-text h1 {
+        text-align: center;
+      }
+    </style>
   </head>
 
   <body>
@@ -49,8 +79,15 @@
                   href="tel:+254113222706"
                   style="text-decoration: none; color: #00ff00"
                 >
-                  <i class="fa fa-phone-alt"></i>
-                  <h2 style="display: inline; color: #00ff00; margin-left: 5px">
+                  <i style="color: #00ff00" class="fa fa-phone-alt"></i>
+                  <h2
+                    style="
+                      display: inline;
+                      color: #00ff00;
+                      margin-left: 5px;
+                      font-size: 1rem;
+                    "
+                  >
                     +254 113 222 706
                   </h2>
                 </a>
@@ -60,17 +97,14 @@
           <div class="col-md-4">
             <div class="top-bar-right">
               <div class="social">
-                <a
-                  href=" https://www.linkedin.com/company/skill-gap-solutions-kenya/"
-                  ><i class="fab fa-twitter"></i
-                ></a>
-                <a href=""><i class="fab fa-facebook-f"></i></a>
+                
+                <a href="https://www.facebook.com/share/1DEpS5uKyi/"><i class="fab fa-facebook-f"></i></a>
                 <a
                   href=" https://www.linkedin.com/company/skill-gap-solutions-kenya/"
                   ><i class="fab fa-linkedin-in"></i
                 ></a>
                 <a
-                  href=" https://www.linkedin.com/company/skill-gap-solutions-kenya/"
+                  href="https://www.instagram.com/skillgapsolutions_ea?igsh=bm1tNHJxNDU3azJ2"
                   ><i class="fab fa-instagram"></i
                 ></a>
               </div>
@@ -102,10 +136,23 @@
           id="navbarCollapse"
         >
           <div class="navbar-nav ml-auto">
-            <a href="index.html" class="nav-item nav-link active">Home</a>
-            <a href="about.html" class="nav-item nav-link">About</a>
+            <a
+              style="font-size: 1.1rem; font-weight: 300"
+              href="index.html"
+              class="nav-item nav-link active"
+              >Home</a
+            >
+            <a
+              style="font-size: 1.1rem; font-weight: 300"
+              href="about.html"
+              class="nav-item nav-link"
+              >About</a
+            >
+
+            
             <div class="nav-item dropdown">
               <a
+                style="font-size: 1.1rem; font-weight: 300"
                 href="service.html"
                 class="nav-link dropdown-toggle"
                 data-toggle="dropdown"
@@ -113,6 +160,9 @@
                 Services
               </a>
               <div class="dropdown-menu">
+                <a href="service.html" class="dropdown-item"
+                  >Services Page</a
+                >
                 <a href="talent.html" class="dropdown-item"
                   >Talent Acquisition</a
                 >
@@ -135,9 +185,21 @@
                 >
               </div>
             </div>
-            <a href="blog.html" class="nav-item nav-link">Blog</a>
 
-            <a href="contact.html" class="nav-item nav-link">Contact</a>
+            
+            <a
+              style="font-size: 1.1rem; font-weight: 300"
+              href="blog.html"
+              class="nav-item nav-link"
+              >Blog</a
+            >
+
+            <a
+              style="font-size: 1.1rem; font-weight: 300"
+              href="contact.html"
+              class="nav-item nav-link"
+              >Contact</a
+            >
           </div>
         </div>
       </div>
@@ -153,22 +215,23 @@
               <img src="img/carousel-1.jpg" alt="Image" />
             </div>
             <div class="carousel-text">
-              <h1 style="color: #00ff00">Get Things Done!!!</h1>
+              <h1><span class="get-things-done">Get Things Done.</span></h1>
               <p style="text-align: justify">
                 Partner with us to build stronger teams, streamline HR
                 processes, and foster a culture where talent thrives.
               </p>
               <div class="carousel-btn">
-                <a class="btn" href="service.html"
-                  ><i class="fa fa-link"></i>Get Started</a
-                >
+                <a class="btn" href="service.html">
+                  <i class="fa fa-link"></i>Get Started
+                </a>
                 <a
                   class="btn btn-play"
                   data-toggle="modal"
                   data-src="img/talking.mp4"
                   data-target="#videoModal"
-                  ><i class="fa fa-play"></i>Watch Video</a
                 >
+                  <i class="fa fa-play"></i>Watch Video
+                </a>
               </div>
             </div>
           </div>
@@ -178,7 +241,9 @@
               <img src="img/carousel-3.jpg" alt="Image" />
             </div>
             <div class="carousel-text">
-              <h1>Growth.Agility.Productivity.</h1>
+              <h1 style="font: bolder; font-weight: 300; white-space: nowrap">
+                Growth.Agility.Productivity.
+              </h1>
               <p style="text-align: justify">
                 Empower your workforce with strategies that drive growth, boost
                 performance, and create lasting impact.
@@ -203,7 +268,10 @@
               <img src="img/carousel-2.jpg" alt="Image" />
             </div>
             <div class="carousel-text">
-              <h1>Your Success,Our Priority</h1>
+              <h1 style="color: #d7272f; font-weight: 300; white-space: nowrap">
+                Your Success, Our Priority
+              </h1>
+
               <p style="text-align: justify">
                 We help organizations unlock their people's potential through
                 tailored HR solutions, recruitment, and strategic guidance.
@@ -518,11 +586,11 @@
 
         <div class="owl-carousel testimonials-carousel">
           <div class="testimonial-item text-center">
-            <img
+            <!-- <img
               src="img/testimonial-20.jpg"
               alt="Client Image"
               class="rounded-circle mb-3"
-            />
+            /> -->
             <p class="fst-italic">
               “Skill-GAP Solutions LTD transformed our HR systems with
               excellent, people-focused strategies.”
@@ -532,11 +600,11 @@
           </div>
 
           <div class="testimonial-item text-center">
-            <img
+            <!-- <img
               src="img/testimonial-1.jpg"
               alt="Client Image"
               class="rounded-circle mb-3"
-            />
+            /> -->
             <p class="fst-italic">
               “Their training programs aligned our goals and boosted measurable
               productivity fast.”
@@ -546,11 +614,11 @@
           </div>
 
           <div class="testimonial-item text-center">
-            <img
+            <!-- <img
               src="img/testimonial-2.jpg"
               alt="Client Image"
               class="rounded-circle mb-3"
-            />
+            /> -->
             <p class="fst-italic">
               “Skill-GAP Solutions LTD became our trusted partner for effective
               talent acquisition success.”
@@ -560,11 +628,11 @@
           </div>
 
           <div class="testimonial-item text-center">
-            <img
+            <!-- <img
               src="img/testimonial-4.jpg"
               alt="Client Image"
               class="rounded-circle mb-3"
-            />
+            /> -->
             <p class="fst-italic">
               “Professional, timely guidance helped us restructure HR with clear
               insight.”
@@ -577,194 +645,6 @@
     </div>
 
     <!-- Testimonial End -->
-
-    <!-- Team Start -->
-    <div class="team">
-      <div class="container">
-        <div class="section-header">
-          <p style="text-align: justify">Meet Our Team</p>
-          <h2>Our Professional Team</h2>
-        </div>
-        <div class="row">
-          <div class="col-lg-3 col-md-6">
-            <div class="team-item">
-              <div class="team-img">
-                <img src="img/team1.jpeg" alt="Team Image" />
-              </div>
-              <div class="team-text">
-                <h2>Patrick Njoroge Ng'ang'a</h2>
-                <p style="text-align: justify">Operations strategist</p>
-                <div class="team-social">
-                  <a href=""><i class="fab fa-twitter"></i></a>
-                  <a href=""><i class="fab fa-facebook-f"></i></a>
-                  <a href=""><i class="fab fa-linkedin-in"></i></a>
-                  <a href=""><i class="fab fa-instagram"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="team-item">
-              <div class="team-img">
-                <img src="img/team2.jpeg" alt="Team Image" />
-              </div>
-              <div class="team-text">
-                <h2>Johnstone Kipchumba Tarus</h2>
-                <p style="text-align: justify">Oprations Director</p>
-                <div class="team-social">
-                  <a href=""><i class="fab fa-twitter"></i></a>
-                  <a href=""><i class="fab fa-facebook-f"></i></a>
-                  <a href=""><i class="fab fa-linkedin-in"></i></a>
-                  <a href=""><i class="fab fa-instagram"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="team-item">
-              <div class="team-img">
-                <img src="img/team3.jpeg" alt="Team Image" />
-              </div>
-              <div class="team-text">
-                <h2>Elvis Masheti</h2>
-                <p style="text-align: justify">HR Consultant</p>
-                <div class="team-social">
-                  <a href=""><i class="fab fa-twitter"></i></a>
-                  <a href=""><i class="fab fa-facebook-f"></i></a>
-                  <a href=""><i class="fab fa-linkedin-in"></i></a>
-                  <a href=""><i class="fab fa-instagram"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="team-item">
-              <div class="team-img">
-                <img src="img/person.png" alt="Team Image" />
-              </div>
-              <div class="team-text">
-                <h2>Sammy Maiyo</h2>
-                <p style="text-align: justify">Lead Consultant</p>
-                <div class="team-social">
-                  <a href=""><i class="fab fa-twitter"></i></a>
-                  <a href=""><i class="fab fa-facebook-f"></i></a>
-                  <a href=""><i class="fab fa-linkedin-in"></i></a>
-                  <a href=""><i class="fab fa-instagram"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Team End -->
-
-    <!-- Contact Start -->
-    <div class="contact">
-      <div class="container">
-        <div class="section-header">
-          <p style="text-align: justify">Get In Touch</p>
-          <h2>Get In Touch For Any Query</h2>
-        </div>
-        <div class="row align-items-center">
-          <div class="col-md-5">
-            <div class="contact-info">
-              <div class="contact-icon">
-                <i class="fa fa-map-marker-alt"></i>
-              </div>
-              <div class="contact-text">
-                <h3>Our Head Office</h3>
-                <p style="text-align: justify">Aven House, 2nd Fl. Parklands</p>
-              </div>
-            </div>
-            <div class="contact-info">
-              <div class="contact-icon">
-                <i class="fa fa-phone-alt"></i>
-              </div>
-              <div class="contact-text">
-                <h3>Call for Help</h3>
-                <p style="text-align: justify">
-                  <a
-                    href="tel:+254113222706"
-                    style="text-decoration: none; color: inherit"
-                  >
-                    +254 113 222 706
-                  </a>
-                </p>
-              </div>
-            </div>
-            <div class="contact-info">
-              <div class="contact-icon">
-                <i class="fa fa-envelope"></i>
-              </div>
-              <div class="contact-text">
-                <h3>Email for Information</h3>
-                <p style="text-align: justify">info@skillgap.co.ke</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-7">
-            <div class="contact-form">
-              <div id="success"></div>
-              <form name="sentMessage" id="contactForm" novalidate="novalidate">
-                <div class="control-group">
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="name"
-                    name="name"
-                    placeholder="Your Name"
-                    required
-                  />
-                </div>
-
-                <div class="control-group">
-                  <input
-                    type="email"
-                    class="form-control"
-                    id="email"
-                    name="email"
-                    placeholder="Your Email"
-                    required
-                  />
-                </div>
-
-                <div class="control-group">
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="subject"
-                    name="subject"
-                    placeholder="Subject"
-                    required
-                  />
-                </div>
-
-                <div class="control-group">
-                  <textarea
-                    class="form-control"
-                    id="message"
-                    name="message"
-                    placeholder="Message"
-                    required
-                  ></textarea>
-                </div>
-
-                <!-- 👇 add this hidden field so we can send the date/time -->
-                <input type="hidden" id="time" name="time" />
-
-                <div>
-                  <button class="btn" type="submit" id="sendMessageButton">
-                    Send Message
-                  </button>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Contact End -->
 
     <!-- Blog Start -->
     <div class="blog">
@@ -855,6 +735,117 @@
     </div>
     <!-- Blog End -->
 
+    <!-- Contact Start -->
+    <div class="contact">
+      <div class="container">
+        <div class="section-header">
+          <p style="text-align: justify">Get In Touch</p>
+          <h2>Get In Touch For Any Query</h2>
+        </div>
+        <div class="row align-items-center">
+          <div class="col-md-5">
+            <div class="contact-info">
+              <div class="contact-icon">
+                <i class="fa fa-map-marker-alt"></i>
+              </div>
+              <div class="contact-text">
+                <h3>Our Head Office</h3>
+                <p style="text-align: justify">Aven House, 2nd Fl. Parklands</p>
+              </div>
+            </div>
+            <div class="contact-info">
+              <div class="contact-icon">
+                <i style="color: #00ff00" class="fa fa-phone-alt"></i>
+              </div>
+              <div class="contact-text">
+                <h3>Call for Help</h3>
+                <p style="text-align: justify">
+                  <a
+                    href="tel:+254113222706"
+                    style="text-decoration: underline; color: blue"
+                  >
+                    +254 113 222 706
+                  </a>
+                </p>
+              </div>
+            </div>
+            <div class="contact-info">
+              <div class="contact-icon">
+                <i class="fa fa-envelope"></i>
+              </div>
+              <div class="contact-text">
+                <h3>Email for Information</h3>
+                <a href="mailto:info@skillgap.co.ke"
+                  ><p style="text-align: justify">info@skillgap.co.ke</p>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-7">
+            <div class="contact-form">
+              <div id="success"></div>
+              <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                <div class="control-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="name"
+                    name="name"
+                    placeholder="Your Name"
+                    required
+                  />
+                </div>
+
+                <div class="control-group">
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    name="email"
+                    placeholder="Your Email"
+                    required
+                  />
+                </div>
+
+                <div class="control-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="subject"
+                    name="subject"
+                    placeholder="Subject"
+                    required
+                  />
+                </div>
+
+                <div class="control-group">
+                  <textarea
+                    class="form-control"
+                    id="message"
+                    name="message"
+                    placeholder="Message"
+                    required
+                  ></textarea>
+                </div>
+
+                <!-- 👇 add this hidden field so we can send the date/time -->
+                <input type="hidden" id="time" name="time" />
+
+                <div>
+                  <button class="btn" type="submit" id="sendMessageButton">
+                    Send Message
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Contact End -->
+
+    
+
     <!-- Footer Start -->
     <div class="footer">
       <div class="container">
@@ -869,7 +860,7 @@
                     Parklands
                   </p>
                   <p style="text-align: justify">
-                    <i class="fa fa-phone-alt"></i>
+                    <i style="color: #00ff00" class="fa fa-phone-alt"></i>
                     <a
                       href="tel:+254113222706"
                       style="
@@ -882,7 +873,9 @@
                     </a>
                   </p>
                   <p style="text-align: justify">
-                    <i class="fa fa-envelope"></i> info@skillgap.co.ke
+                    <i class="fa fa-envelope"></i> <a style="color: white" href="mailto:info@skillgap.co.ke"
+                  >info@skillgap.co.ke
+                </a>
                   </p>
                   <div class="footer-social">
                     <a href="#"><i class="fab fa-twitter"></i></a>
@@ -897,7 +890,7 @@
                   <h2>Quick Links</h2>
                   <a href="about.html">About Us</a>
                   <a href="service.html">Our Services</a>
-                  <a href="feature.html">Why Choose Us</a>
+                  <a href="blog.html">Blog</a>
                   <a href="contact.html">Contact</a>
                 </div>
               </div>
@@ -907,8 +900,23 @@
             <div class="footer-newsletter">
               <h2>Have any questions?</h2>
               <p style="text-align: justify">
-                Kindly reach us at : info@skillgap.co.ke or <br />
-                send an email to: skillgap30@gmail.com
+                Kindly reach us at:
+                <a style="color: white" href="mailto:info@skillgap.co.ke"
+                  >info@skillgap.co.ke
+                </a>
+                </a>
+                <a
+                  href="https://wa.me/254113222706"
+                  target="_blank"
+                  style="
+                    color: white;
+                    text-decoration: none;
+                    font-weight: bold;
+                    margin-left: 100px;
+                  "
+                >
+                  <i class="fa fa-whatsapp"></i> WhatsApp: +254 113 222 706
+                </a>
               </p>
             </div>
           </div>
@@ -922,9 +930,8 @@
               Reserved.
             </p>
           </div>
-          <div class="col-md-6">
-            <p style="text-align: justify">Designed by Divdev Team</p>
-          </div>
+          <!-- <div class="col-md-6">
+          </div> -->
         </div>
       </div>
     </div>
